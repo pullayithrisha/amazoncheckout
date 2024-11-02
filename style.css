@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    font-weight: bold;
+}
+.details{
+    height: 520px;
+    width:520px;
+    border:1px solid lightgrey;
+    display: flex;
+    flex-direction:row;
+}
+.commentcontainer textarea{
+    height:300px;
+    width:250px;
+    border: 1px solid ;
+    border-radius:15px;
+    background-color:rgb(198, 236, 201);
+    margin-left: 10px;
+}
+h3{margin-left:20px;margin-bottom:5px;}
+.table1 td{
+    padding:13px;
+}
+.belowtable{
+    margin-top:30px;
+}
+.payment{padding: 20px;margin-left: 60px;}
+.payment input[type="radio"]{
+    padding:30px; /* add this line to create a gap between radio buttons */
+  }
+.shipping{padding: 20px;margin-left: 60px;}
+.shipping select{background-color:rgb(198, 236, 201);}
+.emailinfo{padding: 20px;}
+.securesave{padding:20px;;}
+.table1 input{
+    background-color: rgb(198, 236, 201);
+    color:rgb(107, 90, 90);
+    border-radius: 5px;
+    width:420px;height:30px;
+    font-size: 16px;
+}
+#submit{width:520px;background-color: rgb(85, 163, 242);
+    height:30px;font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;}
